@@ -6,3 +6,64 @@ a- Lo hago con git fetch al repo que hice fork despues de haberlo clonado y lueg
 b- Si, puedo actualizarlo al estado de su fork.
 c- Si, GAMA pudo actualizar su FORK al estado de ALFA.
 d- Al actualizar el fork no se pierde ningún dato editado anteriormente.
+e-
+***Aguilera Kevin***
+  Touch fork.txt
+  Git add fork.txt
+  Git commit -m
+  Git push
+  *****************
+  
+  ***Ezequiel Pazos***
+  git clone https://github.com/KevinAguilera/TP_SO_i2_Equipo101
+  git add . 
+  git commit -m "modificando fork.txt"
+  git push
+  *****************
+  
+  ***Ian Garcia***
+  git clone https://github.com/IanEzequielGarcia/TP_SO_i2_Equipo101
+  ip address
+  datetime
+  nano fork.txt
+  git add .
+  git commit -m"Modifique fork.txt"
+  git push
+  *****************
+  
+  ***Aguilera Kevin***
+  Touch NuevoDato.txt
+  Git add NuevoDato.txt
+  Git commit -m
+  Git push
+  ********************
+  
+  ***Ezequiel Pazos***
+  git remote add upstream https://github.com/KevinAguilera/TP_SO_i2_Equipo101
+  git fetch upstream
+  git rebase upstream/main
+  ********************
+  
+  ***Ian Garcia***
+  git remote add upstream https://github.com/KevinAguilera/TP_SO_i2_Equipo101
+  git fetch upstream
+  git rebase upstream/main
+  ********************
+  
+  ***Aguilera Kevin***
+  Touch respuestas_I2_Equipo101.txt
+  Git add respuesta_I2_Equipo101.txt
+  Git commit - m
+  Git push
+  ********************
+  
+  ***Ian Garcia***
+  git remote add upstream2 https://github.com/EzequielPazos/TP_SO_i2_Equipo101
+  git fetch upstream2 
+  git pull upstream2
+  git rebase upstream2/main
+  nano respuesta_I2_Equipo101.txt
+  git add .
+  git commit -m"Actualizando respuesta"
+  git push upstream main
+  ********************
