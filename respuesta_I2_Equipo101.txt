@@ -4,3 +4,5 @@ Ezequiel Pazos
 
 a- Lo hago con git fetch al repo que hice fork despues de haberlo clonado y luego hago git rebase al main
 b- Si, puedo actualizarlo al estado de su fork.
+c- Si, GAMA pudo actualizar su FORK al estado de ALFA.
+d- Al actualizar el fork no se pierde ningún dato editado anteriormente.
